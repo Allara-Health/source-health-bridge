@@ -1,0 +1,18 @@
+{
+  "exclude": ["node_modules", "../src/**/*.spec.ts"],
+  "include": ["../src/**/*.ts", "./src/**/*.ts"],
+  "compilerOptions": {
+    "outDir": "dist",
+    "strict": true,
+    "moduleResolution": "node",
+    "sourceMap": false,
+    "declaration": true,
+    "skipDefaultLibCheck": true,
+    "skipLibCheck": true,
+    "strictNullChecks": true,
+    "noImplicitAny": true,
+    "module": "CommonJS",
+    "target": "es2020",
+    "types": ["../dist/"]
+  }
+}
