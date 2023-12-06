@@ -1,8 +1,16 @@
 {
   "name": "@allara-health/source-health-bridge",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "license": "MIT",
   "description": "Official SDK for Source Health iframe plugins.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/allarahealth/source-health-bridge.git"
+  },
+  "publishConfig": {
+    "access": "restricted",
+    "registry": "https://npm.pkg.github.com/"
+  },
   "scripts": {
     "build": "webpack",
     "lint": "eslint src",
@@ -40,10 +48,6 @@
   },
   "jest": {
     "preset": "ts-jest"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/source-health/bridge.git"
   },
   "keywords": [
     "Source"
